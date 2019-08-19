@@ -87,8 +87,23 @@ body {
 	margin-bottom: 20px;
 }
 
-.linha-do-tempo > :first-child {
+.linha-do-tempo.ponto > :first-child {
+	flex: 0.2;
+}
+
+.linha-do-tempo.ponto > :last-child {
+	flex: 0.8;
+}
+
+.linha-do-tempo.intervalo > :first-child {
 	flex: 0.3;
+}
+
+.linha-do-tempo.intervalo > :last-child {
+	flex: 0.7;
+}
+
+.linha-do-tempo > :first-child {
 	border-color: #999;
 	border-style: solid;
 	border-width: 0 1px 0 0;
@@ -98,17 +113,14 @@ body {
 	text-align: right;
 }
 
-.linha-do-tempo > :last-child {
-	flex: 0.7;
-}
 
 .linha-do-tempo .bandeira {
 	display: flex;
 }
 
 .linha-do-tempo .bandeira img {
-	margin-left: 5px;
-	width: 24px;
+	margin-left: 10px;
+	width: 20px;
 }
 
 .linha-do-tempo strong {
