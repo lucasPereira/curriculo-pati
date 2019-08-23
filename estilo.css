@@ -30,18 +30,12 @@ body {
 	margin-top: 30px;
 }
 
-#geral > #auxiliar > #habilidades > h2 {
-	color: #00517B;
-	font-size: 1.5rem;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}
-
 #geral > #auxiliar > #informacoes > p {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	color: #666;
+	font-family: 'Open Sans', sans-serif;
 	margin: 40px 0;
 }
 
@@ -51,6 +45,48 @@ body {
 
 #geral > #auxiliar > #habilidades {
 	font-family: 'Open Sans', sans-serif;
+}
+
+#geral > #auxiliar > #habilidades h2 {
+	color: #00517B;
+	font-size: 1.9rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+#geral > #auxiliar > #habilidades ul {
+	list-style: none;
+}
+
+#geral > #auxiliar > #habilidades li {
+	margin-top: 20px;
+}
+
+#geral > #auxiliar > #habilidades p {
+	color: #333;
+	font-size: 1.1em;
+}
+
+#geral > #auxiliar > #habilidades .habilidade {
+	background-image: linear-gradient(180deg, #3366CC 50%, #2E5CB8 50%);
+	border-radius: 10px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-top: 5px;
+	padding: 5px 10px;
+}
+
+#geral > #auxiliar > #habilidades .habilidade.avancado {
+	width: 180px;
+}
+
+#geral > #auxiliar > #habilidades .habilidade.intermediario {
+	width: 120px;
+}
+
+#geral > #auxiliar > #habilidades .habilidade.basico {
+	width: 60px;
 }
 
 #geral > #principal {
