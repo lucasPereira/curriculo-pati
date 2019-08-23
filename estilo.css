@@ -23,15 +23,15 @@ body {
 }
 
 #geral > #auxiliar > #informacoes > h1 {
-	color: #000099;
+	color: #00517B;
 	font-size: 2rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin-top: 30px;
 }
 
-#geral > #auxiliar > #hobbies > h2 {
-	color: #000099;
+#geral > #auxiliar > #habilidades > h2 {
+	color: #00517B;
 	font-size: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -49,6 +49,10 @@ body {
 	margin-right: 5px;
 }
 
+#geral > #auxiliar > #habilidades {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #geral > #principal {
 	display: flex;
 	flex: 0.7;
@@ -58,28 +62,16 @@ body {
 }
 
 #geral > #principal h2 {
-	border-color: #000099;
+	border-color: #00517B;
 	border-style: solid;
 	border-width: 0 0 1px 0;
-	color: #000099;
+	color: #00517B;
 	display: inline-block;
 	font-size: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	margin: 30px 0 15px 0;
 }
-
-/* #geral > #principal > #formacao > ul {
-	margin-left: 30px;
-}
-
-#geral > #principal > #formacao > ul > li {
-	margin-bottom: 15px;
-}
-
-#geral > #principal > #formacao > ul > li > strong {
-	font-weight: bold;
-} */
 
 .linha-do-tempo {
 	display: flex;
@@ -131,8 +123,4 @@ body {
 	color: #333;
 	font-size: 0.8rem;
 	font-style: italic;
-}
-
-#geral > #principal > #habilidades {
-	/* background-color: #FF0; */
 }
