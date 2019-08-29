@@ -59,7 +59,7 @@ body {
 }
 
 #geral > #auxiliar > #habilidades li {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 #geral > #auxiliar > #habilidades p {
@@ -75,6 +75,12 @@ body {
 	font-size: 0.8em;
 	margin-top: 5px;
 	padding: 5px 10px;
+}
+
+#geral > #auxiliar > #habilidades .habilidade.bolinha {
+	height: 20px;
+	padding: 0;
+	width: 20px;
 }
 
 #geral > #auxiliar > #habilidades .habilidade.avancado {
